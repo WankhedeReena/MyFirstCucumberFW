@@ -1,0 +1,106 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-05-19T12:17:38.343Z",
+        "line": 3,
+        "name": "Open Browser and Navigate",
+        "description": "",
+        "id": "my-first-feature;open-browser-and-navigate",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4266000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User Opened the Browser",
+            "match": {
+              "location": "cucumberScript.stepdefs.Stepdefs.user_opened_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 10690000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User navigated to the app url",
+            "match": {
+              "location": "cucumberScript.stepdefs.Stepdefs.user_navigated_to_the_app_url()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 38000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User is able to see application landing page",
+            "match": {
+              "location": "cucumberScript.stepdefs.Stepdefs.user_is_able_to_see_application_landing_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-05-19T12:17:53.443Z",
+        "line": 8,
+        "name": "User is able to search for a product",
+        "description": "",
+        "id": "my-first-feature;user-is-able-to-search-for-a-product",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 14719000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User Opened the Browser and User navigated to the App url",
+            "match": {
+              "location": "cucumberScript.stepdefs.Stepdefs.user_opened_the_browser_and_user_navigated_to_the_app_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1463000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User search for a product",
+            "match": {
+              "location": "cucumberScript.stepdefs.Stepdefs.user_search_for_a_product()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Search result for the product is displayed",
+            "match": {
+              "location": "cucumberScript.stepdefs.Stepdefs.search_result_for_the_product_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "My First feature",
+    "description": "",
+    "id": "my-first-feature",
+    "keyword": "Feature",
+    "uri": "classpath:features/MyFirstFeature.feature",
+    "tags": []
+  }
+]
