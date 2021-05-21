@@ -47,6 +47,7 @@ public class Stepdefs {
             @When("User search for a product")
 			public void user_search_for_a_product() {
 			    driver.findElement(By.id("twotabsearchtextbox")).sendKeys("bags for women stylish");
+			    driver.findElement(By.id("nav-search-submit-button")).click();
 			}
 			@Then("Search result for the product is displayed")
 			public void search_result_for_the_product_is_displayed() {
